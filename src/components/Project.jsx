@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import project1 from "../assets/images/Kayode project 1.png";
 import project2 from "../assets/images/insta-clone.png";
 import project3 from "../assets/images/e-com.png";
-
+import image11 from "../assets/images/image11.png";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
