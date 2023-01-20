@@ -2,10 +2,8 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import project1 from "../assets/images/Kayode project 1.png";
 import project2 from "../assets/images/insta-clone.png";
-import project3 from "../assets/images/project-3.jpg";
-import project4 from "../assets/images/project-4.jpg";
-import project5 from "../assets/images/project-5.png";
-import image11 from "../assets/images/image11.png";
+import project3 from "../assets/images/e-com.png";
+
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
@@ -23,6 +21,12 @@ const Project = () => {
       name: "Instagram Clone",
       github_link: "https://github.com/Coolestboy01/Instagram-clone",
       live_link: "https://kay-instagram-clone.netlify.app",
+    },
+    {
+      img: project3,
+      name: "E-commerce website",
+      github_link: "https://github.com/Coolestboy01/E-Commerce-website",
+      live_link: "https://ecom-webpage.netlify.app",
     },
   ];
   return (
