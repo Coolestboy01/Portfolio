@@ -9,7 +9,7 @@ const About = () => {
   return (
     <section id="about" className="py-10 text-white">
       <div className="text-center mt-8">
-        <h3 className="text-4xl font-semibold">
+        <h3 className="text-4xl font-semibold md: mb-8">
           About <span className="text-cyan-600">Me</span>
         </h3>
         {/* <p className="text-gray-400 my-3 text-lg">My introduction</p> */}
@@ -19,7 +19,7 @@ const About = () => {
               <p className="text-justify leading-7 w-11/12 mx-auto">
               I am a creative and detail-oriented Frontend Software Developer with a background in developing responsive, high-performance, reliable React-based web applications targeting both mobile devices and desktops. I have experience in testing and debugging code, and developing front-end logic. I have also been recognized by senior leadership for the passion for quality, eye for detail and always ready to dive in and tackle problems head-on.  
               </p>
-              <div className="flex mt-10 items-center gap-7">
+              <div className="flex mt-10 items-center gap-7 md:justify-center sm:justify-center">
                 {info.map((content) => (
                   <div key={content.text}>
                     <h3 className="md:text-4xl text-2xl font-semibold text-white">
@@ -33,7 +33,7 @@ const About = () => {
               <br />
               <br />
               <a href="./src/assets/Ojo Kayode CV.pdf" download>
-                <button className="btn-primary">Download CV</button>
+                <button className="btn-primary ">Download CV</button>
               </a>
             </div>
           </div>

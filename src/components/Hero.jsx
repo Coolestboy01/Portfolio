@@ -14,14 +14,14 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex py-10 md:flex-row flex-col items-center"
+      className="min-h-screen flex py-10 md:flex-row flex-col items-center mt-8"
     >
-      <div className="flex-1 flex items-center justify-center bg-gradient-to-b from-teal-500 rounded-full w-auto h-auto overflow-hidden mx-7">
+      <div className="flex-1 flex items-center justify-center bg-gradient-to-b from-teal-500 w-auto h-auto rounded-full overflow-hidden mx-7 mr-10">
         <img src={coolestboy} alt="" className=" w-44 h-auto md:w-11/12" />
       </div>
       <div className="flex-1">
         <div className="md:text-left text-center">
-          <h1 className="md:text-5xl text-xl md:leading-normal leading-10 text-white font-bold">
+          <h1 className="md:text-5xl text-xl md:leading-normal leading-10 text-white font-bold mt-4">
             <span className="text-cyan-600 md:text-6xl text-5xl">
               Hello!
               <br />
